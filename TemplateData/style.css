@@ -1,4 +1,11 @@
 body { padding: 0; margin: 0 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+p {
+  text-align: center;
+  color: #317cf5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
